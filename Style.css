@@ -1,0 +1,108 @@
+body{
+  font-family: "Lora", serif, Arial, sans-serif;
+  margin: 20px; 
+  background-color: #1A1B1E; 
+  /*color: #E0E0E0; */
+  color: #CCCCCC;
+}
+/*----- navigation ----*/
+.nav .nav-link{
+  color: ghostwhite;
+}
+.nav .nav-link:hover{
+  color: #1785df;
+}
+.nav .nav-link::after{
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0%;
+  background: #1785df;
+  transition: .6s;
+}
+.nav .nav-link:hover:after{
+  width: 100%;
+}
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text; /* For older Safari versions */
+  color: transparent;
+  background-image: linear-gradient(to right, rgb(255, 0, 0), blue, #a00909); /* Gradient colors */
+}
+.hero p{
+  color: #CCCCCC;
+}
+
+
+/*-------- About --------*/
+.about-us .about-row{
+  padding: 10px;
+  border: 1px #ffffff solid;
+  border-radius: 4%;
+  box-shadow: 0px 2px 4px rgb(34, 36, 136);
+}
+.about-us h2{
+  text-align: center;
+  /*color: #561A86;
+  color: #04679c;*/
+  color: #6982f1;
+  font-weight: 600;
+}
+.about-us p{
+  color: #CCCCCC;
+}
+  /* ---- Features ----*/
+.features .feature-icon{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.offers .col{
+  border: 1px solid rgba(16, 19, 59, 0.356);
+  border-radius: 5%;
+  margin: 10px;
+  color: #CCCCCC;
+  background-color: rgba(16, 19, 59, 0.356);
+}
+.more-of-forge{
+  text-align: center;
+  margin: 100px;
+}
+.features h2{
+  color: #6982f1;
+}
+
+/*---- blog ----- */
+.bg-blog h1{
+  text-align: center;
+  font-size: 80px;
+  font-weight: 600;
+}
+.bg-blog .row{
+  border: 1px solid;
+  border-radius: 2%;
+}
+
+/*---- footer -----*/
+.footer .nav .nav-item{
+  color: ghostwhite;
+}
+  /*------- ForgeStory Interface ------*/
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  #response {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+
+  
